@@ -9,7 +9,6 @@ print("=== HOẠT ĐỘNG 4 ===")
 toa_do = (3, 5)
 print(toa_do, type(toa_do))
 
-# Thử gán lại: toa_do[0] = 10 -> quan sát lỗi TypeError (tuple bất biến)
 
 # Bài tập 4.2 - Unpacking tuple
 x, y = toa_do

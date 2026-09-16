@@ -88,7 +88,7 @@ print("\n" + "="*40 + "\n")
 print("=== HOẠT ĐỘNG 3 ===")
 
 # Bài tập 3.1 - Lọc số chẵn/lẻ
-day_so = list(range(1, 21))  # day so tu 1 den 20
+day_so = list(range(1, 21))  
 
 so_chan = [x for x in day_so if x % 2 == 0]
 so_le = [x for x in day_so if x % 2 != 0]
