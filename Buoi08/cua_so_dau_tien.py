@@ -1,9 +1,9 @@
-#hd2: ví dụ frame
 import tkinter as tk
 
 cua_so = tk.Tk()
 cua_so.title("Vi du Frame")
 cua_so.geometry("400x300")
+cua_so.resizable(True, False)
 
 khung_tren = tk.Frame(cua_so, bg="lightblue", height=100)
 khung_tren.pack(fill="x")
@@ -15,3 +15,4 @@ tk.Label(khung_tren, text="Khu vuc tieu de", bg="lightblue").pack(pady=10)
 tk.Label(khung_duoi, text="Khu vuc noi dung", bg="lightyellow").pack(pady=10)
 
 cua_so.mainloop()
+
